@@ -92,7 +92,6 @@ function hendlerClick(event) {
     return;
   }
   event.preventDefault();
-  console.log(event.target);
 
   const index = Number(event.target.dataset.index);
   const image = images[index];
